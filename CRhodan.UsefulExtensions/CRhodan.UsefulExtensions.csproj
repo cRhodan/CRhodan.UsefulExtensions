@@ -2,6 +2,10 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>CRhodan.UsefulExtensions</Title>
+        <PackageProjectUrl>https://github.com/cRhodan/CRhodan.UsefulExtensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/cRhodan/CRhodan.UsefulExtensions</RepositoryUrl>
     </PropertyGroup>
 
 </Project>
