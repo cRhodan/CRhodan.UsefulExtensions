@@ -6,7 +6,7 @@
         <Title>CRhodan.UsefulExtensions</Title>
         <PackageProjectUrl>https://github.com/cRhodan/CRhodan.UsefulExtensions</PackageProjectUrl>
         <RepositoryUrl>https://github.com/cRhodan/CRhodan.UsefulExtensions</RepositoryUrl>
-        <PackageVersion>1.1.1</PackageVersion>
+        <PackageVersion>1.1.2</PackageVersion>
         <Description>Just a library with some random extensions and helpers I find useful. Slowly adding to it over time.</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReleaseNotes>Added MIT Licence</PackageReleaseNotes>

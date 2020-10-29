@@ -16,7 +16,6 @@ namespace CRhodan.UsefulExtensions.Extensions
             return type.GetType().Name + "." + caller;
         }
         
-        
         /// <summary>
         /// Attempt to convert the supplied string to Title Case 
         /// </summary>
