@@ -16,17 +16,21 @@ namespace CRhodan.UsefulExtensions.Extensions
             return type.GetType().Name + "." + caller;
         }
         
+        
         /// <summary>
-        /// Attempt to convert the string to Title Case in en-AU.
+        /// Attempt to convert the supplied string to Title Case 
         /// </summary>
-        public static string ToTitleCase(this string input)
+        /// <param name="input">The string to convert to Title Case</param>
+        /// <param name="cultureName">The culture name to use (defaults to En-Au if not supplied)</param>
+        /// <returns>The supplied input string in Title Case</returns>
+        public static string ToTitleCase(this string input, string cultureName = "en-AU")
         {
             if (string.IsNullOrWhiteSpace(input))
             {
                 return input;
             }
 
-            var textInfo = new CultureInfo("en-AU", false).TextInfo;
+            var textInfo = new CultureInfo(cultureName, false).TextInfo;
             return textInfo.ToTitleCase(input.ToLowerInvariant());
         }
     }
